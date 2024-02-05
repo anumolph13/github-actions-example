@@ -14,10 +14,6 @@ public class GithubCicdActionsApplication {
 	public String welcome(){
 		return "Welcome for myFirst Springboot App!!!";
 	}
-	public SomeData getMethodName(@RequestParam String param) {
-		return new SomeData();
-	}
-	
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
 	}
