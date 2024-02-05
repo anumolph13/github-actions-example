@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @SpringBootApplication
 @RestController
 public class GithubCicdActionsApplication {
-	@GetMapping("\welcom")
+	@GetMapping("/welcome")
 	public String welcome(){
 		return "Welcome for myFirst Springboot App!!!";
 	}
